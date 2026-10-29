@@ -593,7 +593,7 @@ body::before {
         <div class="float-card c3"></div>
     </div>
     <audio id="bgMusic" loop preload="auto">
-        <source src="https://github.com/Bedfightplays/music/raw/refs/heads/main/MONTAGEM%20PERIGOSA.mp3" type="audio/mpeg">
+        <source src="https://github.com/BedfightGG/music/raw/refs/heads/main/MONTAGEM%20PERIGOSA.mp3" type="audio/mpeg">
     </audio>
 
     <button class="show-sidebar-btn" id="showSidebarBtn" onclick="toggleSidebar()">
@@ -604,7 +604,7 @@ body::before {
     <div class="main" id="main">
         <div class="topbar">
             <div class="logo">
-                <div class="logo-icon">⚔️</div>
+                <div class="logo-icon">🛏</div>
                 <div class="logo-text">Bedfight<span>GG</span> Launcher</div>
             </div>
             <div class="topbar-actions">
@@ -665,6 +665,15 @@ body::before {
     <script>
         const clients = [
             {
+                id: "Dylan 26.2", name: "Dylan Client 26.2", short: "Dylan Client 26.2", icon: "🎃",
+                tag: "new", tagLabel: "Recommended", base: "Minecraft 26.2", runtime: "WASM",
+                best: "New Version With Mods", status: "Stable", badge: "● For Mod Gamers",
+                title: "DylanClient", version: "26.2",
+                subtitle: "New Version With Extensive Mods",
+                desc: "<strong>Minecraft 26.2</strong> — Minecraft Vanilla 26.2 with an advanced mod menu.",
+                url: "https://dylanclient.netlify.app"
+            },
+            {
                 id: "1.21.11", name: "Minecraft 1.21.11", short: "Vanilla 1.21.11", icon: "🏞️",
                 tag: "rec", tagLabel: "Vanilla", base: "Minecraft 1.21.11", runtime: "WASM",
                 best: "New Vanilla", status: "Stable", badge: "● For New Version Users",
@@ -674,7 +683,7 @@ body::before {
                 url: "https://mc1-21-11.netlify.app"
             },
             {
-                id: "26.2", name: "Minecraft 26.2 Modded", short: "Vanilla Modded 1.21.11", icon: "👽",
+                id: "26.2", name: "Minecraft 26.2 Modded", short: "Vanilla Modded 26.2", icon: "👽",
                 tag: "rec", tagLabel: "Vanilla Modded", base: "Minecraft 26.2", runtime: "WASM",
                 best: "New Vanilla", status: "Stable", badge: "● For Newest Version Users",
                 title: "Vanilla", version: "26.2",
@@ -711,7 +720,7 @@ body::before {
             }
         ];
 
-        let currentId = "1.8.8";
+        let currentId = "Dylan 26.2";
         let sidebarVisible = true;
         let musicPlaying = false;
 
